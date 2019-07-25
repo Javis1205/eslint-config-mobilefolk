@@ -1,0 +1,61 @@
+{
+  "name": "eslint-config-mobilefolk",
+  "version": "1.0.0",
+  "description": "Eslint config with less rule for react & react-native working with es7. Base of Airbnb",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "index.js",
+    "rules/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javis1205/eslint-config-mobilefolk.git"
+  },
+  "author": "javisnguyen",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-es6",
+    "eslint-es7",
+    "eslint-react",
+    "eslint-airbnb",
+    "eslint-decorator",
+    "react-native eslint",
+    "react eslint"
+  ],
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-plugin-class-property": "^1.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.9.12"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/Javis1205/eslint-config-mobilefolk/issues"
+  },
+  "homepage": "https://github.com/Javis1205/eslint-config-mobilefolk#readme"
+}
